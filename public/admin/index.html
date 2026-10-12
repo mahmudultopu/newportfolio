@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Portfolio Admin</title>
+  <link rel="icon" href="/assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+  <!-- Login -->
+  <div class="login" id="login" hidden>
+    <form class="login__card" id="loginForm">
+      <div class="login__logo">MH</div>
+      <h1>Welcome back</h1>
+      <p>Sign in to manage your portfolio.</p>
+      <label class="fld"><span>Password</span>
+        <div class="pw"><input type="password" id="loginPw" autocomplete="current-password" required autofocus>
+        <button type="button" class="pw__toggle" data-toggle-pw="loginPw">Show</button></div>
+      </label>
+      <label class="fld" id="loginCodeWrap" hidden><span>Authentication code</span>
+        <input type="text" id="loginCode" inputmode="numeric" autocomplete="one-time-code" maxlength="12" placeholder="123456 or a backup code">
+        <small class="fld__hint">Open your authenticator app, or use one of your backup codes.</small>
+      </label>
+      <div class="login__err" id="loginErr" role="alert"></div>
+      <button class="abtn abtn--primary abtn--block" type="submit">Sign in</button>
+      <a href="/" class="login__back">← Back to website</a>
+    </form>
+  </div>
+
+  <!-- App -->
+  <div class="app" id="app" hidden>
+    <aside class="side" id="side">
+      <div class="side__brand">
+        <div class="side__logo" id="sideLogo">MH</div>
+        <div><strong id="sideName">Portfolio</strong><small>Admin panel</small></div>
+      </div>
+      <nav class="side__nav" id="sideNav"></nav>
+      <div class="side__foot">
+        <a class="side__link" href="/" target="_blank" rel="noopener"><i data-icon="external"></i>View website</a>
+        <button class="side__link" id="logoutBtn"><i data-icon="logout"></i>Log out</button>
+      </div>
+    </aside>
+    <div class="side-backdrop" id="sideBackdrop"></div>
+
+    <div class="main">
+      <header class="top">
+        <button class="iconbtn top__menu" id="menuBtn" aria-label="Menu"><i data-icon="menu"></i></button>
+        <div class="top__title">
+          <h1 id="pageTitle">Dashboard</h1>
+          <p id="pageDesc"></p>
+        </div>
+        <div class="top__actions">
+          <span class="dirty" id="dirty" hidden>Unsaved changes</span>
+          <button class="abtn abtn--ghost" id="previewBtn" title="Live preview"><i data-icon="eye"></i><span>Preview</span></button>
+          <button class="abtn abtn--primary" id="saveBtn" disabled><i data-icon="save"></i><span>Save</span></button>
+        </div>
+      </header>
+
+      <div class="workspace" id="workspace">
+        <section class="view" id="view"></section>
+        <aside class="preview" id="preview" hidden>
+          <div class="preview__bar">
+            <div class="seg">
+              <button class="on" data-device="desktop" title="Desktop"><i data-icon="monitor"></i></button>
+              <button data-device="mobile" title="Mobile"><i data-icon="phone"></i></button>
+            </div>
+            <span>Live preview — updates as you type</span>
+            <button class="iconbtn" id="previewClose" aria-label="Close preview"><i data-icon="x"></i></button>
+          </div>
+          <div class="preview__stage"><iframe id="previewFrame" title="Live preview"></iframe></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- Media picker -->
+  <div class="dlg" id="mediaDlg" hidden>
+    <div class="dlg__backdrop" data-dlg-close></div>
+    <div class="dlg__panel">
+      <div class="dlg__head">
+        <h2>Media library</h2>
+        <button class="iconbtn" data-dlg-close aria-label="Close"><i data-icon="x"></i></button>
+      </div>
+      <div class="dlg__body" id="mediaDlgBody"></div>
+    </div>
+  </div>
+
+  <input type="file" id="hiddenFile" hidden multiple>
+  <div class="toasts" id="toasts" aria-live="polite"></div>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>

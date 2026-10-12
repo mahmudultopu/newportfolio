@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESC}}">
+  <meta name="keywords" content="{{KEYWORDS}}">
+  <meta name="author" content="{{AUTHOR}}">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="canonical" href="{{CANONICAL}}">
+  <meta property="og:url" content="{{CANONICAL}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESC}}">
+  <meta property="og:image" content="{{OG_IMAGE}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="{{FAVICON}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body class="is-loading">
+  <a class="skip-link" href="#app">Skip to content</a>
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__name" id="preloaderName"></div>
+    <div class="preloader__count"><span id="preloaderCount">0</span>%</div>
+    <div class="preloader__bar"><span id="preloaderBar"></span></div>
+  </div>
+
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor__label"></span></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" id="navLogo"></a>
+    <nav class="nav__links" id="navLinks" aria-label="Main"></nav>
+    <div class="nav__right">
+      <a href="#contact" class="btn btn--dark btn--sm" id="navCta">Hire me <span class="btn__icon">↗</span></a>
+      <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+  <div class="menu" id="menu" aria-hidden="true">
+    <nav class="menu__links" id="menuLinks"></nav>
+    <div class="menu__foot" id="menuFoot"></div>
+  </div>
+
+  <main id="app" tabindex="-1"></main>
+  <footer class="footer" id="footer"></footer>
+
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="modal__close" data-close aria-label="Close">✕</button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <noscript><style>.preloader{display:none}body{overflow:auto}</style><p class="noscript">Please enable JavaScript to view this portfolio.</p></noscript>
+  <script type="application/json" id="initial-content">{{CONTENT}}</script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

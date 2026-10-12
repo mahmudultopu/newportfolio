@@ -1,0 +1,450 @@
+{
+  "site": {
+    "title": "Mahmudul Hasan Topu — AI/ML Engineer & SEO Expert",
+    "metaDescription": "Portfolio of Mahmudul Hasan Topu, CSE graduate from North South University specialising in AI/ML, deep learning, NLP and SEO.",
+    "keywords": "Mahmudul Hasan Topu, AI engineer, machine learning, deep learning, NLP, SEO expert, North South University, Bangladesh",
+    "accent": "#ff5b14",
+    "favicon": "",
+    "showPreloader": true,
+    "showCursor": true
+  },
+  "sections": [
+    {
+      "id": "about",
+      "label": "About",
+      "visible": true
+    },
+    {
+      "id": "services",
+      "label": "What I Offer",
+      "visible": true
+    },
+    {
+      "id": "process",
+      "label": "How I Work",
+      "visible": true
+    },
+    {
+      "id": "skills",
+      "label": "Skills",
+      "visible": true
+    },
+    {
+      "id": "projects",
+      "label": "Projects",
+      "visible": true
+    },
+    {
+      "id": "experience",
+      "label": "Experience",
+      "visible": true
+    },
+    {
+      "id": "certifications",
+      "label": "Certifications",
+      "visible": true
+    },
+    {
+      "id": "stats",
+      "label": "Highlights",
+      "visible": true
+    },
+    {
+      "id": "testimonials",
+      "label": "Testimonials",
+      "visible": false
+    },
+    {
+      "id": "contact",
+      "label": "Contact",
+      "visible": true
+    }
+  ],
+  "profile": {
+    "firstName": "Mahmudul",
+    "lastName": "Hasan",
+    "nickname": "Topu",
+    "role": "AI/ML Engineer & SEO Expert",
+    "email": "mahmudulhasan46367@gmail.com",
+    "phone": "",
+    "location": "Dhaka, Bangladesh",
+    "availability": "Available for work",
+    "resume": ""
+  },
+  "socials": [
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mahmudul-hasan-topu-70b66b361"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/"
+    },
+    {
+      "label": "Kaggle",
+      "url": "https://www.kaggle.com/"
+    }
+  ],
+  "hero": {
+    "photo": "/uploads/profile.webp",
+    "photoStyle": "duotone",
+    "intro": "Building intelligent models and search strategies that help brands get found, understood and chosen.",
+    "ctaText": "Start a project",
+    "ctaLink": "#contact",
+    "servicesTitle": "Services",
+    "services": [
+      "Machine Learning",
+      "Deep Learning",
+      "NLP Solutions",
+      "SEO Strategy",
+      "Digital Marketing"
+    ]
+  },
+  "marquee": [
+    "Machine Learning",
+    "Deep Learning",
+    "Natural Language Processing",
+    "Computer Vision",
+    "Technical SEO",
+    "Data Science",
+    "Digital Marketing"
+  ],
+  "about": {
+    "label": "About me",
+    "statement": "I turn data into *intelligent products* and search strategies that help brands grow. ~Every project begins with a clear~ *problem*, ~a careful look at the data,~ and ends with models and rankings that deliver measurable results.",
+    "images": [
+      "/assets/covers/neural-network.svg",
+      "/assets/covers/nlp-waves.svg",
+      "/assets/covers/seo-growth.svg",
+      "/assets/covers/computer-vision.svg",
+      "/assets/covers/data-clusters.svg"
+    ]
+  },
+  "services": {
+    "titleLeft": "What",
+    "titleRight": "I offer",
+    "image": "/assets/covers/services.svg",
+    "buttonText": "Let's talk",
+    "items": [
+      {
+        "title": "Machine Learning",
+        "description": "Predictive models, classification and forecasting built on clean, well-understood data.",
+        "image": "/assets/covers/data-clusters.svg"
+      },
+      {
+        "title": "Deep Learning",
+        "description": "Neural networks for vision, sequence and generative tasks, trained and tuned for production.",
+        "image": "/assets/covers/neural-network.svg"
+      },
+      {
+        "title": "NLP & LLM Apps",
+        "description": "Chatbots, text classification, summarisation and retrieval-augmented LLM applications.",
+        "image": "/assets/covers/nlp-waves.svg"
+      },
+      {
+        "title": "SEO Strategy",
+        "description": "Technical audits, keyword research, on-page optimisation and content that ranks.",
+        "image": "/assets/covers/search-ranking.svg"
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Data-driven campaigns and analytics that turn traffic into customers.",
+        "image": "/assets/covers/seo-growth.svg"
+      }
+    ]
+  },
+  "process": {
+    "title": "How I work",
+    "intro": "A simple process designed to turn your ideas into reliable AI systems and pages that rank — from first call to final delivery.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "description": "I learn your goals, your users and your data to define the real problem worth solving."
+      },
+      {
+        "title": "Data & Strategy",
+        "description": "Collect, clean and explore data, or audit your site and research keywords, to plan the approach."
+      },
+      {
+        "title": "Build & Train",
+        "description": "Develop models or implement SEO changes, testing and iterating until results are solid."
+      },
+      {
+        "title": "Deploy & Grow",
+        "description": "Ship to production, monitor performance and keep improving rankings and accuracy."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills & Tools",
+    "intro": "The technologies I use every day to build, train and ship.",
+    "items": [
+      {
+        "name": "Python",
+        "level": 92,
+        "category": "AI / ML"
+      },
+      {
+        "name": "Machine Learning (scikit-learn)",
+        "level": 88,
+        "category": "AI / ML"
+      },
+      {
+        "name": "Deep Learning (PyTorch / TensorFlow)",
+        "level": 85,
+        "category": "AI / ML"
+      },
+      {
+        "name": "Natural Language Processing",
+        "level": 82,
+        "category": "AI / ML"
+      },
+      {
+        "name": "Computer Vision",
+        "level": 78,
+        "category": "AI / ML"
+      },
+      {
+        "name": "Pandas / NumPy / Data Analysis",
+        "level": 90,
+        "category": "AI / ML"
+      },
+      {
+        "name": "Technical SEO",
+        "level": 90,
+        "category": "SEO & Marketing"
+      },
+      {
+        "name": "Keyword Research",
+        "level": 92,
+        "category": "SEO & Marketing"
+      },
+      {
+        "name": "On-Page & Content SEO",
+        "level": 88,
+        "category": "SEO & Marketing"
+      },
+      {
+        "name": "Google Analytics & Search Console",
+        "level": 86,
+        "category": "SEO & Marketing"
+      },
+      {
+        "name": "Link Building",
+        "level": 80,
+        "category": "SEO & Marketing"
+      },
+      {
+        "name": "SQL",
+        "level": 80,
+        "category": "Tools"
+      },
+      {
+        "name": "Git & GitHub",
+        "level": 84,
+        "category": "Tools"
+      },
+      {
+        "name": "Flask / FastAPI",
+        "level": 76,
+        "category": "Tools"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Selected work",
+    "intro": "A few projects and demos. Click any card to see details, live demo or video.",
+    "items": [
+      {
+        "title": "Bangla Sentiment Analyzer",
+        "category": "NLP",
+        "year": "2025",
+        "description": "Transformer-based sentiment classifier for Bangla social-media text, served through a small web demo.",
+        "image": "/assets/covers/nlp-waves.svg",
+        "tags": [
+          "PyTorch",
+          "Transformers",
+          "NLP"
+        ],
+        "liveUrl": "",
+        "codeUrl": "",
+        "videoUrl": "",
+        "featured": true
+      },
+      {
+        "title": "Image Classification Pipeline",
+        "category": "Deep Learning",
+        "year": "2025",
+        "description": "CNN with transfer learning and data augmentation, including training dashboards and model export.",
+        "image": "/assets/covers/computer-vision.svg",
+        "tags": [
+          "TensorFlow",
+          "CNN",
+          "Computer Vision"
+        ],
+        "liveUrl": "",
+        "codeUrl": "",
+        "videoUrl": "",
+        "featured": true
+      },
+      {
+        "title": "Customer Churn Prediction",
+        "category": "Machine Learning",
+        "year": "2024",
+        "description": "End-to-end ML project: feature engineering, gradient boosting and an explainable report for stakeholders.",
+        "image": "/assets/covers/data-clusters.svg",
+        "tags": [
+          "scikit-learn",
+          "XGBoost",
+          "SHAP"
+        ],
+        "liveUrl": "",
+        "codeUrl": "",
+        "videoUrl": "",
+        "featured": false
+      },
+      {
+        "title": "E-commerce SEO Growth",
+        "category": "SEO",
+        "year": "2024",
+        "description": "Technical audit, site-structure fixes and keyword-driven content plan for an online store.",
+        "image": "/assets/covers/seo-growth.svg",
+        "tags": [
+          "Technical SEO",
+          "Search Console",
+          "Content"
+        ],
+        "liveUrl": "",
+        "codeUrl": "",
+        "videoUrl": "",
+        "featured": false
+      },
+      {
+        "title": "Neural Network From Scratch",
+        "category": "Deep Learning",
+        "year": "2023",
+        "description": "A fully connected network written in NumPy to understand back-propagation and optimisers.",
+        "image": "/assets/covers/neural-network.svg",
+        "tags": [
+          "NumPy",
+          "Math",
+          "Education"
+        ],
+        "liveUrl": "",
+        "codeUrl": "",
+        "videoUrl": "",
+        "featured": false
+      },
+      {
+        "title": "Local Business Ranking",
+        "category": "SEO",
+        "year": "2023",
+        "description": "Local SEO and Google Business Profile optimisation to bring a service business to the map pack.",
+        "image": "/assets/covers/search-ranking.svg",
+        "tags": [
+          "Local SEO",
+          "GBP",
+          "Analytics"
+        ],
+        "liveUrl": "",
+        "codeUrl": "",
+        "videoUrl": "",
+        "featured": false
+      }
+    ]
+  },
+  "experience": {
+    "label": "My journey",
+    "title": "Turning data into",
+    "titleAccent": "intelligent results",
+    "buttonText": "Let's work together",
+    "items": [
+      {
+        "role": "AI/ML & SEO Specialist (Freelance)",
+        "company": "Self-employed",
+        "period": "2024 — Present",
+        "description": "Building ML solutions and running SEO campaigns for clients and personal projects."
+      },
+      {
+        "role": "B.Sc. in Computer Science & Engineering",
+        "company": "North South University",
+        "period": "Graduated",
+        "description": "Major in Artificial Intelligence & Machine Learning. Coursework in ML, deep learning, NLP and data mining."
+      }
+    ]
+  },
+  "certifications": {
+    "titleTop": "Certified",
+    "titleBottom": "& Trained",
+    "buttonText": "View all",
+    "buttonLink": "",
+    "items": [
+      {
+        "organization": "North South University",
+        "title": "B.Sc. in CSE — Major in AI & ML",
+        "date": "Graduated"
+      },
+      {
+        "organization": "Google",
+        "title": "Example: Google Analytics Certification",
+        "date": "Add date"
+      },
+      {
+        "organization": "Coursera",
+        "title": "Example: Deep Learning Specialization",
+        "date": "Add date"
+      }
+    ]
+  },
+  "stats": {
+    "label": "Highlights",
+    "statement": "I build machine-learning systems and SEO strategies focused on *accuracy*, *visibility* and ~real business~ *growth*.",
+    "note": "Based in Bangladesh · Working globally",
+    "items": [
+      {
+        "value": 20,
+        "suffix": "+",
+        "label": "Projects completed",
+        "description": "ML models, data projects and SEO campaigns."
+      },
+      {
+        "value": 14,
+        "suffix": "+",
+        "label": "Core skills",
+        "description": "Across AI, data and search marketing."
+      },
+      {
+        "value": 4,
+        "suffix": "",
+        "label": "Years at NSU",
+        "description": "Studying CSE with an AI/ML major."
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "Commitment",
+        "description": "Every project delivered with care."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "items": [
+      {
+        "quote": "Add a real quote from a client or supervisor here. This section is hidden until you turn it on in the admin panel.",
+        "name": "Client name",
+        "role": "Their role, company",
+        "photo": ""
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Let's work together",
+    "title": "Let's bring your ideas to life.",
+    "text": "Have a model to build, data to understand or a website to rank? Send me a message and I'll get back to you within a day.",
+    "buttonText": "Send message"
+  },
+  "footer": {
+    "text": "Designed & built by Mahmudul Hasan Topu"
+  }
+}
