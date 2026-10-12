@@ -164,9 +164,22 @@
   }));
 
   // ---------- uploads & media ----------
+  // Shrink big photos in the browser first (keeps uploads under the host's request-size limit).
+  const shrinkImage = async (file) => {
+    if (!/^image\/(jpeg|png|webp)$/.test(file.type) || file.size < 1.5 * 1024 * 1024) return file;
+    try {
+      const bmp = await createImageBitmap(file);
+      const scale = Math.min(1, 2400 / Math.max(bmp.width, bmp.height));
+      const canvas = document.createElement('canvas');
+      canvas.width = Math.round(bmp.width * scale); canvas.height = Math.round(bmp.height * scale);
+      canvas.getContext('2d').drawImage(bmp, 0, 0, canvas.width, canvas.height);
+      const blob = await new Promise((r) => canvas.toBlob(r, 'image/webp', 0.9));
+      return blob && blob.size < file.size ? new File([blob], file.name.replace(/\.[^.]+$/, '') + '.webp', { type: 'image/webp' }) : file;
+    } catch { return file; }
+  };
   const uploadFiles = async (files) => {
     const fd = new FormData();
-    [...files].forEach((f) => fd.append('files', f));
+    for (const f of [...files]) fd.append('files', await shrinkImage(f));
     const j = await api('/api/upload', { method: 'POST', body: fd });
     await loadMedia();
     toast(`Uploaded ${j.files.length} file${j.files.length > 1 ? 's' : ''}`);

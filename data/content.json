@@ -86,7 +86,7 @@
     }
   ],
   "hero": {
-    "photo": "/uploads/profile.webp",
+    "photo": "/assets/profile.webp",
     "photoStyle": "duotone",
     "intro": "Building intelligent models and search strategies that help brands get found, understood and chosen.",
     "ctaText": "Start a project",

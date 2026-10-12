@@ -4,3 +4,5 @@ data/security-log.json
 data/messages.json
 data/history/
 *.tmp
+.vercel
+.env*.local
